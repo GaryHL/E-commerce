@@ -1,0 +1,11 @@
+$principal_color: #D65F5F;
+
+$ligth_red:#FFF7F7;
+$text_color:#333333;
+
+
+@mixin flex-center(){
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}

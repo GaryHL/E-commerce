@@ -1,0 +1,7 @@
+@use '../../scss/variables';
+
+.container_nav{
+    width:100vw;
+    height:10vh;
+    background-color:variables.$principal_color;
+}
