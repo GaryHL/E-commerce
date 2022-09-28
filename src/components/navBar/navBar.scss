@@ -28,7 +28,7 @@
   }
   .container_menu,
   .container_cart {
-    position: absolute;
+    position: fixed;
     height: 100vh;
     top: 0;
     width: 30%;
@@ -38,17 +38,19 @@
     left: 0;
     background-color:variables.$principal_color;
     transition:1s;
+    margin-left:-30%
   }
   .container_menu.active{
-
+    margin-left:0;
   }
   .container_cart {
     right: 0;
     background-color:white;
     transition:1s;
-    width:0%
+    width:30%;
+    margin-right: -30%;
   }
   .container_cart.active{
-    width:30%
+    margin-right:0;
   }
 }
